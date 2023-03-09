@@ -1,0 +1,16 @@
+{
+  "name": "netflix-watch-party-server",
+  "version": "1.0.0",
+  "description": "Server for Netflix Watch Party extension",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
